@@ -1,0 +1,95 @@
+digraph robot {
+	link_base_link [label=base_link color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev20 [label=Rev20 color=green fillcolor=lightgrey style=filled]
+	link_base_link -> joint_Rev20
+	link_Leg_Pitch_v5_2 [label=Leg_Pitch_v5_2 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev20 -> link_Leg_Pitch_v5_2
+	joint_Rev21 [label=Rev21 color=green fillcolor=lightgrey style=filled]
+	link_Leg_Pitch_v5_2 -> joint_Rev21
+	link_Leg_Roll_v4_2 [label=Leg_Roll_v4_2 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev21 -> link_Leg_Roll_v4_2
+	joint_Rev22 [label=Rev22 color=green fillcolor=lightgrey style=filled]
+	link_Leg_Roll_v4_2 -> joint_Rev22
+	link_Upper_Leg_v4_2 [label=Upper_Leg_v4_2 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev22 -> link_Upper_Leg_v4_2
+	joint_Rev23 [label=Rev23 color=green fillcolor=lightgrey style=filled]
+	link_Upper_Leg_v4_2 -> joint_Rev23
+	link_Lower_Leg_v6_2 [label=Lower_Leg_v6_2 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev23 -> link_Lower_Leg_v6_2
+	joint_Rev24 [label=Rev24 color=green fillcolor=lightgrey style=filled]
+	link_Lower_Leg_v6_2 -> joint_Rev24
+	link_Ankle_Link_v5_2 [label=Ankle_Link_v5_2 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev24 -> link_Ankle_Link_v5_2
+	joint_Rev25 [label=Rev25 color=green fillcolor=lightgrey style=filled]
+	link_Ankle_Link_v5_2 -> joint_Rev25
+	link_Foot_v4_2 [label=Foot_v4_2 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev25 -> link_Foot_v4_2
+	joint_Rev12 [label=Rev12 color=green fillcolor=lightgrey style=filled]
+	link_base_link -> joint_Rev12
+	link_Leg_Pitch_v5_1 [label=Leg_Pitch_v5_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev12 -> link_Leg_Pitch_v5_1
+	joint_Rev13 [label=Rev13 color=green fillcolor=lightgrey style=filled]
+	link_Leg_Pitch_v5_1 -> joint_Rev13
+	link_Leg_Roll_v4_1 [label=Leg_Roll_v4_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev13 -> link_Leg_Roll_v4_1
+	joint_Rev14 [label=Rev14 color=green fillcolor=lightgrey style=filled]
+	link_Leg_Roll_v4_1 -> joint_Rev14
+	link_Upper_Leg_v4_1 [label=Upper_Leg_v4_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev14 -> link_Upper_Leg_v4_1
+	joint_Rev15 [label=Rev15 color=green fillcolor=lightgrey style=filled]
+	link_Upper_Leg_v4_1 -> joint_Rev15
+	link_Lower_Leg_v6_1 [label=Lower_Leg_v6_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev15 -> link_Lower_Leg_v6_1
+	joint_Rev16 [label=Rev16 color=green fillcolor=lightgrey style=filled]
+	link_Lower_Leg_v6_1 -> joint_Rev16
+	link_Ankle_Link_v5_1 [label=Ankle_Link_v5_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev16 -> link_Ankle_Link_v5_1
+	joint_Rev19 [label=Rev19 color=green fillcolor=lightgrey style=filled]
+	link_Ankle_Link_v5_1 -> joint_Rev19
+	link_Foot_v4_1 [label=Foot_v4_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev19 -> link_Foot_v4_1
+	joint_Rev1 [label=Rev1 color=green fillcolor=lightgrey style=filled]
+	link_base_link -> joint_Rev1
+	link_Pelvis_v7_1 [label=Pelvis_v7_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev1 -> link_Pelvis_v7_1
+	joint_Rev2 [label=Rev2 color=green fillcolor=lightgrey style=filled]
+	link_Pelvis_v7_1 -> joint_Rev2
+	link_Chest_v13_1 [label=Chest_v13_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev2 -> link_Chest_v13_1
+	joint_Rev7 [label=Rev7 color=green fillcolor=lightgrey style=filled]
+	link_Chest_v13_1 -> joint_Rev7
+	link_Upper_Arm_Link_type_b_v9_2 [label=Upper_Arm_Link_type_b_v9_2 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev7 -> link_Upper_Arm_Link_type_b_v9_2
+	joint_Rev8 [label=Rev8 color=green fillcolor=lightgrey style=filled]
+	link_Upper_Arm_Link_type_b_v9_2 -> joint_Rev8
+	link_Upper_Arm_Roll_Link_v5_2 [label=Upper_Arm_Roll_Link_v5_2 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev8 -> link_Upper_Arm_Roll_Link_v5_2
+	joint_Rev9 [label=Rev9 color=green fillcolor=lightgrey style=filled]
+	link_Upper_Arm_Roll_Link_v5_2 -> joint_Rev9
+	link_Upper_Arm_v10_3 [label=Upper_Arm_v10_3 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev9 -> link_Upper_Arm_v10_3
+	joint_Rev10 [label=Rev10 color=green fillcolor=lightgrey style=filled]
+	link_Upper_Arm_v10_3 -> joint_Rev10
+	link_Lower_Arm_v8_2 [label=Lower_Arm_v8_2 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev10 -> link_Lower_Arm_v8_2
+	joint_Rev3 [label=Rev3 color=green fillcolor=lightgrey style=filled]
+	link_Chest_v13_1 -> joint_Rev3
+	link_Upper_Arm_Link_type_b_v9_1 [label=Upper_Arm_Link_type_b_v9_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev3 -> link_Upper_Arm_Link_type_b_v9_1
+	joint_Rev4 [label=Rev4 color=green fillcolor=lightgrey style=filled]
+	link_Upper_Arm_Link_type_b_v9_1 -> joint_Rev4
+	link_Upper_Arm_Roll_Link_v5_1 [label=Upper_Arm_Roll_Link_v5_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev4 -> link_Upper_Arm_Roll_Link_v5_1
+	joint_Rev5 [label=Rev5 color=green fillcolor=lightgrey style=filled]
+	link_Upper_Arm_Roll_Link_v5_1 -> joint_Rev5
+	link_Upper_Arm_v10_1 [label=Upper_Arm_v10_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev5 -> link_Upper_Arm_v10_1
+	joint_Rev6 [label=Rev6 color=green fillcolor=lightgrey style=filled]
+	link_Upper_Arm_v10_1 -> joint_Rev6
+	link_Lower_Arm_v8_1 [label=Lower_Arm_v8_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev6 -> link_Lower_Arm_v8_1
+	joint_Rev11 [label=Rev11 color=green fillcolor=lightgrey style=filled]
+	link_Chest_v13_1 -> joint_Rev11
+	link_Box_Head_v5_1 [label=Box_Head_v5_1 color=blue fillcolor=lightgrey shape=box style=filled]
+	joint_Rev11 -> link_Box_Head_v5_1
+}

@@ -1,0 +1,21 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.327371148027798 0.9433342304028307 0.05430157630548854 0.3481123552732844
+  position 2.1847428400064097 1.561713095144657 5.520447064408197
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  appearance Parquetry {
+    type "dark strip"
+  }
+}
+Olympian {
+  controller "squatanalysis"
+  supervisor TRUE
+}
